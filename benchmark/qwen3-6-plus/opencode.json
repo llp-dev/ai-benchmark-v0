@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "openrouter/qwen/qwen3.6-plus",
+  "small_model": "openrouter/qwen/qwen3.6-plus",
+  "permission": "allow",
+  "agent": {
+    "build": {
+      "steps": 10000,
+      "reasoningEffort": "medium"
+    }
+  },
+  "provider": {
+    "openrouter": {
+      "apiKey": "{env:OPENROUTER_API_KEY}"
+    }
+  }
+}

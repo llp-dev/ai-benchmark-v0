@@ -1,0 +1,190 @@
+{
+  "runs": [
+    {
+      "slug": "claude-opus-4-7",
+      "started_at": "2026-05-02T15:06:22Z",
+      "ended_at": "2026-05-02T15:11:34Z",
+      "elapsed_seconds": 311.55,
+      "exit_code": 0,
+      "timed_out": false,
+      "session_id": "ses_216c60402ffe2JsfyY5wEgPCMY",
+      "finish_reason": "stop",
+      "tokens": {
+        "input": 58,
+        "output": 32042,
+        "total": 55931
+      },
+      "cost_usd": 2.223501,
+      "code": {
+        "file_count": 3,
+        "files": [
+          "Makefile",
+          "push_swap",
+          "push_swap.rs"
+        ]
+      }
+    },
+    {
+      "slug": "claude-sonnet-4-6",
+      "started_at": "2026-05-02T15:11:34Z",
+      "ended_at": "2026-05-02T15:18:06Z",
+      "elapsed_seconds": 392.29,
+      "exit_code": 0,
+      "timed_out": false,
+      "session_id": "ses_216c14579ffezIx79pieBPMO6y",
+      "finish_reason": "stop",
+      "tokens": {
+        "input": 37,
+        "output": 23643,
+        "total": 48121
+      },
+      "cost_usd": 0.959742,
+      "code": {
+        "file_count": 3,
+        "files": [
+          "Makefile",
+          "push_swap",
+          "push_swap.rs"
+        ]
+      }
+    },
+    {
+      "slug": "deepseek-v4-pro",
+      "started_at": "2026-05-02T15:18:06Z",
+      "ended_at": "2026-05-02T15:27:59Z",
+      "elapsed_seconds": 593.28,
+      "exit_code": 0,
+      "timed_out": false,
+      "session_id": "ses_216bb494bffeh80LlFUACvstdH",
+      "finish_reason": "stop",
+      "tokens": {
+        "input": 513904,
+        "output": 11493,
+        "total": 52937
+      },
+      "cost_usd": 1.133661,
+      "code": {
+        "file_count": 3,
+        "files": [
+          "Makefile",
+          "push_swap",
+          "push_swap.rs"
+        ]
+      }
+    },
+    {
+      "slug": "glm-5-1",
+      "started_at": "2026-05-02T15:27:59Z",
+      "ended_at": "2026-05-02T15:42:19Z",
+      "elapsed_seconds": 859.59,
+      "exit_code": 0,
+      "timed_out": false,
+      "session_id": "ses_216b23bddffewUUo9nz9v4yE7O",
+      "finish_reason": "tool-calls",
+      "tokens": {
+        "input": 2123,
+        "output": 14,
+        "total": 10095
+      },
+      "cost_usd": 0.005194,
+      "code": {
+        "file_count": 0,
+        "files": []
+      }
+    },
+    {
+      "slug": "gpt-5-5",
+      "started_at": "2026-05-02T15:42:19Z",
+      "ended_at": "2026-05-02T15:44:04Z",
+      "elapsed_seconds": 104.58,
+      "exit_code": 0,
+      "timed_out": false,
+      "session_id": "ses_216a51e13ffecKdAQl862Kwc8m",
+      "finish_reason": "stop",
+      "tokens": {
+        "input": 20626,
+        "output": 3764,
+        "total": 18570
+      },
+      "cost_usd": 0.353596,
+      "code": {
+        "file_count": 3,
+        "files": [
+          "Makefile",
+          "push_swap",
+          "push_swap.rs"
+        ]
+      }
+    },
+    {
+      "slug": "kimi-k2-6",
+      "started_at": "2026-05-02T15:44:04Z",
+      "ended_at": "2026-05-02T16:07:26Z",
+      "elapsed_seconds": 1402.32,
+      "exit_code": 0,
+      "timed_out": false,
+      "session_id": "ses_216a3859fffe3UI7jAtmq2c8He",
+      "finish_reason": "tool-calls",
+      "tokens": {
+        "input": 9324,
+        "output": 13,
+        "total": 9394
+      },
+      "cost_usd": 0.009138,
+      "code": {
+        "file_count": 0,
+        "files": []
+      }
+    },
+    {
+      "slug": "mimo-v2-5-pro",
+      "started_at": "2026-05-02T16:07:26Z",
+      "ended_at": "2026-05-02T16:14:52Z",
+      "elapsed_seconds": 446.51,
+      "exit_code": 0,
+      "timed_out": false,
+      "session_id": "ses_2168e1f72ffejDHysUaUdBXqdN",
+      "finish_reason": "stop",
+      "tokens": {
+        "input": 41259,
+        "output": 9389,
+        "total": 41359
+      },
+      "cost_usd": 0.299728,
+      "code": {
+        "file_count": 3,
+        "files": [
+          "Makefile",
+          "push_swap",
+          "push_swap.rs"
+        ]
+      }
+    },
+    {
+      "slug": "qwen3-6-plus",
+      "started_at": "2026-05-02T16:14:52Z",
+      "ended_at": "2026-05-02T16:42:40Z",
+      "elapsed_seconds": 1667.9,
+      "exit_code": 0,
+      "timed_out": false,
+      "session_id": "ses_216874f35ffe8jgSouisRIbjh3",
+      "finish_reason": "stop",
+      "tokens": {
+        "input": 721919,
+        "output": 19009,
+        "total": 34799
+      },
+      "cost_usd": 0.405153,
+      "code": {
+        "file_count": 4,
+        "files": [
+          "Makefile",
+          "push_swap",
+          "push_swap.rs",
+          "test_push_swap.py"
+        ]
+      }
+    }
+  ],
+  "generated_at": "2026-05-02T16:42:40Z"
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "glm-5-1",
+  "started_at": "2026-05-02T15:27:59Z",
+  "ended_at": "2026-05-02T15:42:19Z",
+  "elapsed_seconds": 859.59,
+  "exit_code": 0,
+  "timed_out": false,
+  "session_id": "ses_216b23bddffewUUo9nz9v4yE7O",
+  "finish_reason": "tool-calls",
+  "tokens": {
+    "input": 2123,
+    "output": 14,
+    "total": 10095
+  },
+  "cost_usd": 0.005194,
+  "code": {
+    "file_count": 0,
+    "files": []
+  }
+}

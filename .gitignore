@@ -1,0 +1,7 @@
+results/
+.env
+__pycache__/
+*.pyc
+.venv/
+validation/unity/
+validation/test_libft

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "openrouter/moonshotai/kimi-k2.6",
+  "small_model": "openrouter/moonshotai/kimi-k2.6",
+  "permission": "allow",
+  "agent": {
+    "build": {
+      "steps": 10000,
+      "reasoningEffort": "medium"
+    }
+  },
+  "provider": {
+    "openrouter": {
+      "apiKey": "{env:OPENROUTER_API_KEY}"
+    }
+  }
+}
